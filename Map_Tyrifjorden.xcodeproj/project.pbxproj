@@ -25,6 +25,14 @@
 		239FAE12173A42B10083CE46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239FADE7173A42B10083CE46 /* Foundation.framework */; };
 		239FAE1A173A42B10083CE46 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 239FAE18173A42B10083CE46 /* InfoPlist.strings */; };
 		239FAE1D173A42B10083CE46 /* Map_TyrifjordenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 239FAE1C173A42B10083CE46 /* Map_TyrifjordenTests.m */; };
+		239FAE38173A468A0083CE46 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239FAE37173A468A0083CE46 /* CoreLocation.framework */; };
+		239FAE3A173A46AB0083CE46 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239FAE39173A46AB0083CE46 /* QuartzCore.framework */; };
+		239FAE3C173A46DD0083CE46 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 239FAE3B173A46DD0083CE46 /* libsqlite3.dylib */; };
+		239FAE3D173A46E60083CE46 /* libMapView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 239FAE30173A45BE0083CE46 /* libMapView.a */; };
+		23E9BD1B173A5611000D871D /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E9BD1A173A5611000D871D /* Default-Portrait~ipad.png */; };
+		23E9BD1D173A5618000D871D /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E9BD1C173A5618000D871D /* Default-Portrait@2x~ipad.png */; };
+		23E9BD1F173A5624000D871D /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E9BD1E173A5624000D871D /* Default-Landscape~ipad.png */; };
+		23E9BD21173A5628000D871D /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E9BD20173A5628000D871D /* Default-Landscape@2x~ipad.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,34 @@
 			proxyType = 1;
 			remoteGlobalIDString = 239FADE1173A42B10083CE46;
 			remoteInfo = Map_Tyrifjorden;
+		};
+		239FAE2F173A45BE0083CE46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 239FAE26173A45BD0083CE46 /* MapView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 17F31EFA1331050A00122B16;
+			remoteInfo = MapView;
+		};
+		239FAE31173A45BE0083CE46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 239FAE26173A45BD0083CE46 /* MapView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 17157D87133BBC8300E28941;
+			remoteInfo = MapViewTests;
+		};
+		239FAE33173A45BE0083CE46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 239FAE26173A45BD0083CE46 /* MapView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2BF3078F0F8AC5C0007014EE;
+			remoteInfo = "Unit Tests";
+		};
+		239FAE35173A46640083CE46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 239FAE26173A45BD0083CE46 /* MapView.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B8C974130E8A19B2007D16AD;
+			remoteInfo = MapView;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -63,6 +99,14 @@
 		239FAE19173A42B10083CE46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		239FAE1B173A42B10083CE46 /* Map_TyrifjordenTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Map_TyrifjordenTests.h; sourceTree = "<group>"; };
 		239FAE1C173A42B10083CE46 /* Map_TyrifjordenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Map_TyrifjordenTests.m; sourceTree = "<group>"; };
+		239FAE26173A45BD0083CE46 /* MapView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MapView.xcodeproj; path = "../../RouteMe/route-me/MapView/MapView.xcodeproj"; sourceTree = "<group>"; };
+		239FAE37173A468A0083CE46 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		239FAE39173A46AB0083CE46 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		239FAE3B173A46DD0083CE46 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		23E9BD1A173A5611000D871D /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		23E9BD1C173A5618000D871D /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		23E9BD1E173A5624000D871D /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		23E9BD20173A5628000D871D /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +114,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				239FAE3D173A46E60083CE46 /* libMapView.a in Frameworks */,
+				239FAE3C173A46DD0083CE46 /* libsqlite3.dylib in Frameworks */,
+				239FAE3A173A46AB0083CE46 /* QuartzCore.framework in Frameworks */,
+				239FAE38173A468A0083CE46 /* CoreLocation.framework in Frameworks */,
 				239FADE6173A42B10083CE46 /* UIKit.framework in Frameworks */,
 				239FADE8173A42B10083CE46 /* Foundation.framework in Frameworks */,
 				239FADEA173A42B10083CE46 /* CoreGraphics.framework in Frameworks */,
@@ -92,6 +140,14 @@
 		239FADD9173A42B10083CE46 = {
 			isa = PBXGroup;
 			children = (
+				23E9BD20173A5628000D871D /* Default-Landscape@2x~ipad.png */,
+				23E9BD1E173A5624000D871D /* Default-Landscape~ipad.png */,
+				23E9BD1C173A5618000D871D /* Default-Portrait@2x~ipad.png */,
+				23E9BD1A173A5611000D871D /* Default-Portrait~ipad.png */,
+				239FAE3B173A46DD0083CE46 /* libsqlite3.dylib */,
+				239FAE39173A46AB0083CE46 /* QuartzCore.framework */,
+				239FAE37173A468A0083CE46 /* CoreLocation.framework */,
+				239FAE26173A45BD0083CE46 /* MapView.xcodeproj */,
 				239FADEB173A42B10083CE46 /* Map_Tyrifjorden */,
 				239FAE15173A42B10083CE46 /* Map_TyrifjordenTests */,
 				239FADE4173A42B10083CE46 /* Frameworks */,
@@ -168,6 +224,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		239FAE27173A45BD0083CE46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				239FAE30173A45BE0083CE46 /* libMapView.a */,
+				239FAE32173A45BE0083CE46 /* MapViewTests.octest */,
+				239FAE34173A45BE0083CE46 /* RM Unit Tests.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -182,6 +248,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				239FAE36173A46640083CE46 /* PBXTargetDependency */,
 			);
 			name = Map_Tyrifjorden;
 			productName = Map_Tyrifjorden;
@@ -226,6 +293,12 @@
 			mainGroup = 239FADD9173A42B10083CE46;
 			productRefGroup = 239FADE3173A42B10083CE46 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 239FAE27173A45BD0083CE46 /* Products */;
+					ProjectRef = 239FAE26173A45BD0083CE46 /* MapView.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				239FADE1173A42B10083CE46 /* Map_Tyrifjorden */,
@@ -233,6 +306,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		239FAE30173A45BE0083CE46 /* libMapView.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMapView.a;
+			remoteRef = 239FAE2F173A45BE0083CE46 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		239FAE32173A45BE0083CE46 /* MapViewTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MapViewTests.octest;
+			remoteRef = 239FAE31173A45BE0083CE46 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		239FAE34173A45BE0083CE46 /* RM Unit Tests.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "RM Unit Tests.app";
+			remoteRef = 239FAE33173A45BE0083CE46 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		239FADE0173A42B10083CE46 /* Resources */ = {
@@ -245,6 +342,10 @@
 				239FADFC173A42B10083CE46 /* Default-568h@2x.png in Resources */,
 				239FADFF173A42B10083CE46 /* MainStoryboard_iPhone.storyboard in Resources */,
 				239FAE02173A42B10083CE46 /* MainStoryboard_iPad.storyboard in Resources */,
+				23E9BD1B173A5611000D871D /* Default-Portrait~ipad.png in Resources */,
+				23E9BD1D173A5618000D871D /* Default-Portrait@2x~ipad.png in Resources */,
+				23E9BD1F173A5624000D871D /* Default-Landscape~ipad.png in Resources */,
+				23E9BD21173A5628000D871D /* Default-Landscape@2x~ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +402,11 @@
 			isa = PBXTargetDependency;
 			target = 239FADE1173A42B10083CE46 /* Map_Tyrifjorden */;
 			targetProxy = 239FAE13173A42B10083CE46 /* PBXContainerItemProxy */;
+		};
+		239FAE36173A46640083CE46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MapView;
+			targetProxy = 239FAE35173A46640083CE46 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -401,11 +507,15 @@
 		239FAE21173A42B10083CE46 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"ALWAYS_SEARCH_USER_PATHS[arch=*]" = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Map_Tyrifjorden/Map_Tyrifjorden-Prefix.pch";
 				INFOPLIST_FILE = "Map_Tyrifjorden/Map_Tyrifjorden-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
+				hxfgjgjy = "";
+				"hxfgjgjy[arch=*]" = "";
 			};
 			name = Debug;
 		};
@@ -416,7 +526,9 @@
 				GCC_PREFIX_HEADER = "Map_Tyrifjorden/Map_Tyrifjorden-Prefix.pch";
 				INFOPLIST_FILE = "Map_Tyrifjorden/Map_Tyrifjorden-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
+				hxfgjgjy = "";
 			};
 			name = Release;
 		};
@@ -473,6 +585,7 @@
 				239FAE22173A42B10083CE46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		239FAE23173A42B10083CE46 /* Build configuration list for PBXNativeTarget "Map_TyrifjordenTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +594,7 @@
 				239FAE25173A42B10083CE46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
